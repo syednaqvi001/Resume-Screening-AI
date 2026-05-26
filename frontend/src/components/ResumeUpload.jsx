@@ -135,7 +135,7 @@ export default function ResumeUpload() {
 
       {loading && <WorkflowStatus />}
 
-      <style jsx>{`
+      <style jsx="true">{`
         .upload-container {
           max-width: 800px;
           margin: 0 auto;

@@ -3,7 +3,7 @@
 
 export default function ResultsPanel({ results, onReset }) {
   const { workflow, summary } = results;
-  const { extraction, decision, generation } = workflow;
+  const { step1_extraction, decision, step2_generation } = workflow;
   const isMatched = decision.matched;
 
   return (
@@ -36,7 +36,7 @@ export default function ResultsPanel({ results, onReset }) {
           <div className="info-card">
             <h4>Skills</h4>
             <div className="tags">
-              {extraction.skills.map((skill, idx) => (
+              {step1_extraction.skills.map((skill, idx) => (
                 <span key={idx} className="tag">
                   {skill}
                 </span>
@@ -46,13 +46,13 @@ export default function ResultsPanel({ results, onReset }) {
 
           <div className="info-card">
             <h4>Experience</h4>
-            <p className="metric">{extraction.experience_years} years</p>
+            <p className="metric">{step1_extraction.experience_years} years</p>
           </div>
 
           <div className="info-card">
             <h4>Key Strengths</h4>
             <ul className="list">
-              {extraction.strengths.map((strength, idx) => (
+              {step1_extraction.strengths.map((strength, idx) => (
                 <li key={idx}>{strength}</li>
               ))}
             </ul>
@@ -61,7 +61,7 @@ export default function ResultsPanel({ results, onReset }) {
           <div className="info-card">
             <h4>Missing Skills</h4>
             <div className="tags gap-red">
-              {extraction.missing_skills.map((skill, idx) => (
+              {step1_extraction.missing_skills.map((skill, idx) => (
                 <span key={idx} className="tag red">
                   {skill}
                 </span>
@@ -69,7 +69,7 @@ export default function ResultsPanel({ results, onReset }) {
             </div>
           </div>
         </div>
-        <p className="reason">{extraction.match_reasons}</p>
+        <p className="reason">{step1_extraction.match_reasons}</p>
       </div>
 
       {/* Step 2: Conditional Output */}
@@ -78,32 +78,32 @@ export default function ResultsPanel({ results, onReset }) {
           <>
             <h3>🎯 Interview Questions (Step 2 - Matched Path)</h3>
             <div className="questions-list">
-              {generation.questions.map((question, idx) => (
+              {step2_generation.questions.map((question, idx) => (
                 <div key={idx} className="question-item">
                   <span className="q-number">Q{idx + 1}</span>
                   <p>{question}</p>
                 </div>
               ))}
             </div>
-            <p className="difficulty">Difficulty Level: {generation.difficulty}</p>
+            <p className="difficulty">Difficulty Level: {step2_generation.difficulty}</p>
           </>
         ) : (
           <>
             <h3>📝 Improvement Path (Step 2 - Not Matched)</h3>
             <div className="rejection-content">
               <p className="rejection-reason">
-                <strong>Why Not Matched:</strong> {generation.rejection_reason}
+                <strong>Why Not Matched:</strong> {step2_generation.rejection_reason}
               </p>
               <div className="suggestions">
                 <h4>Improvement Suggestions:</h4>
                 <ol>
-                  {generation.improvement_suggestions.map((suggestion, idx) => (
+                  {step2_generation.improvement_suggestions.map((suggestion, idx) => (
                     <li key={idx}>{suggestion}</li>
                   ))}
                 </ol>
               </div>
               <p className="reapply">
-                <strong>Time to Reapply:</strong> {generation.time_to_reapply}
+                <strong>Time to Reapply:</strong> {step2_generation.time_to_reapply}
               </p>
             </div>
           </>
