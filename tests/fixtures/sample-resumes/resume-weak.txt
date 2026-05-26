@@ -1,0 +1,35 @@
+JUNIOR DEVELOPER
+
+PROFESSIONAL SUMMARY
+Junior web developer with 1 year of experience in frontend development using React.
+
+TECHNICAL SKILLS
+Languages: JavaScript, HTML, CSS
+Frontend: React, Bootstrap, jQuery
+Tools: Git, VSCode
+
+PROFESSIONAL EXPERIENCE
+
+Junior Frontend Developer - Web Studio (2023 - Present)
+- Built responsive web pages using React and Bootstrap
+- Fixed bugs and implemented simple features based on requirements
+- Worked with design team to implement mockups
+
+Intern Developer - Digital Agency (2022 - 2023)
+- Assisted in developing React components
+- Fixed CSS issues
+- Helped with HTML markup
+
+EDUCATION
+Certificate in Web Development (2022)
+Online Bootcamp
+
+PROJECTS
+- Personal Portfolio Website (React, CSS)
+- Simple Todo App (React)
+- Weather App using public API
+
+SKILLS
+React: 1 year
+JavaScript: 1.5 years
+Web Development: 1 year

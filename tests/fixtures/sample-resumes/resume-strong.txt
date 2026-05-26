@@ -1,0 +1,57 @@
+SENIOR SOFTWARE ENGINEER
+Senior Software Engineer with 8 years of experience in full-stack development.
+
+PROFESSIONAL SUMMARY
+Highly skilled software engineer with proven expertise in designing and implementing scalable web applications. Strong background in system architecture, API development, and database optimization. Experienced in leading technical teams and mentoring junior developers.
+
+TECHNICAL SKILLS
+Languages: JavaScript, TypeScript, Python, Go
+Frontend: React, Vue.js, Next.js, Redux
+Backend: Node.js, Express, Django, FastAPI
+Databases: PostgreSQL, MongoDB, Redis, Elasticsearch
+Cloud: AWS, GCP, Docker, Kubernetes
+DevOps: CI/CD, GitHub Actions, Jenkins, Terraform
+Tools: Git, Jira, Slack, Figma
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer - Tech Corp (2021 - Present)
+- Led team of 5 engineers in designing microservices architecture for real-time data platform
+- Optimized database queries reducing latency by 40%
+- Implemented automated CI/CD pipeline reducing deployment time from 2 hours to 15 minutes
+- Mentored 3 junior developers, guiding them to senior roles
+
+Senior Full Stack Engineer - StartupXYZ (2019 - 2021)
+- Built real-time collaboration platform using Node.js, React, and WebSockets
+- Designed API endpoints handling 1M+ requests/day
+- Implemented Redis caching reducing database load by 60%
+- Led code review process and established coding standards
+
+Full Stack Developer - Digital Agency (2017 - 2019)
+- Developed 20+ web applications using React and Node.js
+- Managed PostgreSQL databases with complex queries
+- Implemented responsive UI designs using CSS Grid and Flexbox
+- Worked with cross-functional teams (designers, PMs, QA)
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Technology (2016)
+
+CERTIFICATIONS
+- AWS Solutions Architect Professional (2022)
+- Kubernetes Administrator Certified (2021)
+
+PROJECTS
+Real-time Analytics Dashboard - Built full-stack dashboard processing 100K events/second
+E-commerce Platform - Designed and implemented microservices architecture for marketplace
+API Gateway - Developed rate-limited API gateway handling 10M requests/day
+
+KEY ACHIEVEMENTS
+- 40% reduction in API latency through optimization
+- Mentored team from 2 to 5 senior engineers
+- Achieved 99.95% uptime for critical systems
+- Reduced infrastructure costs by 35% through optimization
+
+LANGUAGES
+English (Native)
+Spanish (Conversational)
