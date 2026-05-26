@@ -44,6 +44,20 @@ Production-grade full-stack AI application for automated resume screening, techn
 - `deepseek-ai/DeepSeek-V4-Pro` - Interview Generation
 - `teknium/OpenHermes-2.5-Mistral-7B` - Rejection Guidance
 
+Working Page:
+<img width="1919" height="1133" alt="image" src="https://github.com/user-attachments/assets/322ea7ef-c9fd-4d7a-8e6c-6ad703ace52e" />
+
+<img width="1919" height="1133" alt="image" src="https://github.com/user-attachments/assets/0713289f-1bc0-400c-ab48-6e511cbe7134" />
+
+<img width="1919" height="1125" alt="image" src="https://github.com/user-attachments/assets/c27356da-9ff2-4355-8149-e17c82f7637a" />
+
+Screening Result:
+<img width="1919" height="1124" alt="image" src="https://github.com/user-attachments/assets/b32d3a3d-2702-4dee-8841-bb5dca092030" />
+
+<img width="1919" height="1124" alt="image" src="https://github.com/user-attachments/assets/7ed09b82-7a4c-489e-b8c2-921c034b1eeb" />
+
+
+
 ## Quick Start
 
 ### Prerequisites
